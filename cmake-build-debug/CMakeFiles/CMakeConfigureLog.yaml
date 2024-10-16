@@ -452,3 +452,180 @@ events:
       Running the CXX compiler's linker: "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.40
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake:30 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/CMakeLists.txt:93 (include)"
+    checks:
+      - "Performing Test has_std_14_flag"
+    directories:
+      source: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bbc33y"
+      binary: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bbc33y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/_deps/fmt-src/support/cmake"
+    buildResult:
+      variable: "has_std_14_flag"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bbc33y'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_9c649
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -Dhas_std_14_flag  -std=gnu++14   -std=c++14 -o CMakeFiles/cmTC_9c649.dir/src.cxx.obj -c "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bbc33y/src.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_9c649.dir/src.cxx.obj -o cmTC_9c649.exe -Wl,--out-implib,libcmTC_9c649.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake:31 (check_cxx_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/CMakeLists.txt:93 (include)"
+    checks:
+      - "Performing Test has_std_1y_flag"
+    directories:
+      source: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2f7w42"
+      binary: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2f7w42"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/_deps/fmt-src/support/cmake"
+    buildResult:
+      variable: "has_std_1y_flag"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2f7w42'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_83c4c
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -Dhas_std_1y_flag  -std=gnu++14   -std=c++1y -o CMakeFiles/cmTC_83c4c.dir/src.cxx.obj -c "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2f7w42/src.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE   CMakeFiles/cmTC_83c4c.dir/src.cxx.obj -o cmTC_83c4c.exe -Wl,--out-implib,libcmTC_83c4c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake:52 (check_cxx_source_compiles)"
+      - "cmake-build-debug/_deps/fmt-src/CMakeLists.txt:93 (include)"
+    checks:
+      - "Performing Test SUPPORTS_USER_DEFINED_LITERALS"
+    directories:
+      source: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9zc9t7"
+      binary: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9zc9t7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/_deps/fmt-src/support/cmake"
+    buildResult:
+      variable: "SUPPORTS_USER_DEFINED_LITERALS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9zc9t7'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_d91a7
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DSUPPORTS_USER_DEFINED_LITERALS  -std=c++14 -std=gnu++14 -o CMakeFiles/cmTC_d91a7.dir/src.cxx.obj -c "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9zc9t7/src.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -std=c++14  CMakeFiles/cmTC_d91a7.dir/src.cxx.obj -o cmTC_d91a7.exe -Wl,--out-implib,libcmTC_d91a7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug/_deps/fmt-src/support/cmake/cxx14.cmake:62 (check_cxx_source_compiles)"
+      - "cmake-build-debug/_deps/fmt-src/CMakeLists.txt:93 (include)"
+    checks:
+      - "Performing Test FMT_HAS_VARIANT"
+    directories:
+      source: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-b0s0lu"
+      binary: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-b0s0lu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/_deps/fmt-src/support/cmake"
+    buildResult:
+      variable: "FMT_HAS_VARIANT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-b0s0lu'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_e4df7
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DFMT_HAS_VARIANT  -std=c++1z -std=gnu++14 -o CMakeFiles/cmTC_e4df7.dir/src.cxx.obj -c "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-b0s0lu/src.cxx"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -std=c++1z  CMakeFiles/cmTC_e4df7.dir/src.cxx.obj -o cmTC_e4df7.exe -Wl,--out-implib,libcmTC_e4df7.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "cmake-build-debug/_deps/fmt-src/CMakeLists.txt:172 (check_symbol_exists)"
+    checks:
+      - "Looking for _strtod_l"
+    directories:
+      source: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-trnp7f"
+      binary: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-trnp7f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/_deps/fmt-src/support/cmake"
+    buildResult:
+      variable: "HAVE_STRTOD_L"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-trnp7f'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_02936
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe    -o CMakeFiles/cmTC_02936.dir/CheckSymbolExists.c.obj -c "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-trnp7f/CheckSymbolExists.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_02936.dir/CheckSymbolExists.c.obj -o cmTC_02936.exe -Wl,--out-implib,libcmTC_02936.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug/_deps/fmt-src/CMakeLists.txt:202 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test FMT_HAS_MBIG_OBJ"
+    directories:
+      source: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-84mc6s"
+      binary: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-84mc6s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/_deps/fmt-src/support/cmake"
+    buildResult:
+      variable: "FMT_HAS_MBIG_OBJ"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-84mc6s'
+        
+        Run Build Command(s): C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/ninja/win/x64/ninja.exe -v cmTC_d26da
+        [1/2] C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DFMT_HAS_MBIG_OBJ  -std=gnu++14   Wa,-mbig-obj -o CMakeFiles/cmTC_d26da.dir/src.cxx.obj -c "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-84mc6s/src.cxx"
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_d26da.dir/src.cxx.obj 
+        C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DFMT_HAS_MBIG_OBJ  -std=gnu++14   Wa,-mbig-obj -o CMakeFiles/cmTC_d26da.dir/src.cxx.obj -c "C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-84mc6s/src.cxx"
+        G__~1.EXE: warning: Wa,-mbig-obj: linker input file unused because linking not done
+        G__~1.EXE: error: Wa,-mbig-obj: linker input file not found: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
