@@ -142,6 +142,19 @@ Proyecto2/fast:
 .PHONY : Proyecto2/fast
 
 #=============================================================================
+# Target rules for targets named Matematicas
+
+# Build rule for target.
+Matematicas: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Matematicas
+.PHONY : Matematicas
+
+# fast build rule for target.
+Matematicas/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matematicas.dir\build.make CMakeFiles/Matematicas.dir/build
+.PHONY : Matematicas/fast
+
+#=============================================================================
 # Target rules for targets named fmt
 
 # Build rule for target.
@@ -154,173 +167,176 @@ fmt/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\fmt-build\CMakeFiles\fmt.dir\build.make _deps/fmt-build/CMakeFiles/fmt.dir/build
 .PHONY : fmt/fast
 
-Proyecto_1/Estudiante.obj: Proyecto_1/Estudiante.cpp.obj
-.PHONY : Proyecto_1/Estudiante.obj
+Proyecto_1-Ejercio_1_y_2/Estudiante.obj: Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj
+.PHONY : Proyecto_1-Ejercio_1_y_2/Estudiante.obj
 
 # target to build an object file
-Proyecto_1/Estudiante.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.obj
-.PHONY : Proyecto_1/Estudiante.cpp.obj
+Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj
+.PHONY : Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj
 
-Proyecto_1/Estudiante.i: Proyecto_1/Estudiante.cpp.i
-.PHONY : Proyecto_1/Estudiante.i
+Proyecto_1-Ejercio_1_y_2/Estudiante.i: Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.i
+.PHONY : Proyecto_1-Ejercio_1_y_2/Estudiante.i
 
 # target to preprocess a source file
-Proyecto_1/Estudiante.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.i
-.PHONY : Proyecto_1/Estudiante.cpp.i
+Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.i
+.PHONY : Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.i
 
-Proyecto_1/Estudiante.s: Proyecto_1/Estudiante.cpp.s
-.PHONY : Proyecto_1/Estudiante.s
+Proyecto_1-Ejercio_1_y_2/Estudiante.s: Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.s
+.PHONY : Proyecto_1-Ejercio_1_y_2/Estudiante.s
 
 # target to generate assembly for a file
-Proyecto_1/Estudiante.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.s
-.PHONY : Proyecto_1/Estudiante.cpp.s
+Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.s
+.PHONY : Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.s
 
-Proyecto_1/Persona.obj: Proyecto_1/Persona.cpp.obj
-.PHONY : Proyecto_1/Persona.obj
+Proyecto_1-Ejercio_1_y_2/Persona.obj: Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj
+.PHONY : Proyecto_1-Ejercio_1_y_2/Persona.obj
 
 # target to build an object file
-Proyecto_1/Persona.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.obj
-.PHONY : Proyecto_1/Persona.cpp.obj
+Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj
+.PHONY : Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj
 
-Proyecto_1/Persona.i: Proyecto_1/Persona.cpp.i
-.PHONY : Proyecto_1/Persona.i
+Proyecto_1-Ejercio_1_y_2/Persona.i: Proyecto_1-Ejercio_1_y_2/Persona.cpp.i
+.PHONY : Proyecto_1-Ejercio_1_y_2/Persona.i
 
 # target to preprocess a source file
-Proyecto_1/Persona.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.i
-.PHONY : Proyecto_1/Persona.cpp.i
+Proyecto_1-Ejercio_1_y_2/Persona.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.i
+.PHONY : Proyecto_1-Ejercio_1_y_2/Persona.cpp.i
 
-Proyecto_1/Persona.s: Proyecto_1/Persona.cpp.s
-.PHONY : Proyecto_1/Persona.s
+Proyecto_1-Ejercio_1_y_2/Persona.s: Proyecto_1-Ejercio_1_y_2/Persona.cpp.s
+.PHONY : Proyecto_1-Ejercio_1_y_2/Persona.s
 
 # target to generate assembly for a file
-Proyecto_1/Persona.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.s
-.PHONY : Proyecto_1/Persona.cpp.s
+Proyecto_1-Ejercio_1_y_2/Persona.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.s
+.PHONY : Proyecto_1-Ejercio_1_y_2/Persona.cpp.s
 
-Proyecto_1/main2.obj: Proyecto_1/main2.cpp.obj
-.PHONY : Proyecto_1/main2.obj
+Proyecto_1-Ejercio_1_y_2/main2.obj: Proyecto_1-Ejercio_1_y_2/main2.cpp.obj
+.PHONY : Proyecto_1-Ejercio_1_y_2/main2.obj
 
 # target to build an object file
-Proyecto_1/main2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.obj
-.PHONY : Proyecto_1/main2.cpp.obj
+Proyecto_1-Ejercio_1_y_2/main2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.obj
+.PHONY : Proyecto_1-Ejercio_1_y_2/main2.cpp.obj
 
-Proyecto_1/main2.i: Proyecto_1/main2.cpp.i
-.PHONY : Proyecto_1/main2.i
+Proyecto_1-Ejercio_1_y_2/main2.i: Proyecto_1-Ejercio_1_y_2/main2.cpp.i
+.PHONY : Proyecto_1-Ejercio_1_y_2/main2.i
 
 # target to preprocess a source file
-Proyecto_1/main2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.i
-.PHONY : Proyecto_1/main2.cpp.i
+Proyecto_1-Ejercio_1_y_2/main2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.i
+.PHONY : Proyecto_1-Ejercio_1_y_2/main2.cpp.i
 
-Proyecto_1/main2.s: Proyecto_1/main2.cpp.s
-.PHONY : Proyecto_1/main2.s
+Proyecto_1-Ejercio_1_y_2/main2.s: Proyecto_1-Ejercio_1_y_2/main2.cpp.s
+.PHONY : Proyecto_1-Ejercio_1_y_2/main2.s
 
 # target to generate assembly for a file
-Proyecto_1/main2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.s
-.PHONY : Proyecto_1/main2.cpp.s
+Proyecto_1-Ejercio_1_y_2/main2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nociones_clave.dir\build.make CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.s
+.PHONY : Proyecto_1-Ejercio_1_y_2/main2.cpp.s
 
-Proyecto_2/Matematicas.obj: Proyecto_2/Matematicas.cpp.obj
-.PHONY : Proyecto_2/Matematicas.obj
+Proyecto_2-_Ejercio_3,4,5/Matematicas.obj: Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Matematicas.obj
 
 # target to build an object file
-Proyecto_2/Matematicas.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.obj
-.PHONY : Proyecto_2/Matematicas.cpp.obj
+Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matematicas.dir\build.make CMakeFiles/Matematicas.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj
 
-Proyecto_2/Matematicas.i: Proyecto_2/Matematicas.cpp.i
-.PHONY : Proyecto_2/Matematicas.i
+Proyecto_2-_Ejercio_3,4,5/Matematicas.i: Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.i
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Matematicas.i
 
 # target to preprocess a source file
-Proyecto_2/Matematicas.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.i
-.PHONY : Proyecto_2/Matematicas.cpp.i
+Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matematicas.dir\build.make CMakeFiles/Matematicas.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.i
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.i
 
-Proyecto_2/Matematicas.s: Proyecto_2/Matematicas.cpp.s
-.PHONY : Proyecto_2/Matematicas.s
+Proyecto_2-_Ejercio_3,4,5/Matematicas.s: Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.s
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Matematicas.s
 
 # target to generate assembly for a file
-Proyecto_2/Matematicas.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.s
-.PHONY : Proyecto_2/Matematicas.cpp.s
+Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Matematicas.dir\build.make CMakeFiles/Matematicas.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.s
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.s
 
-Proyecto_2/Nuevo.obj: Proyecto_2/Nuevo.cpp.obj
-.PHONY : Proyecto_2/Nuevo.obj
+Proyecto_2-_Ejercio_3,4,5/Nuevo.obj: Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Nuevo.obj
 
 # target to build an object file
-Proyecto_2/Nuevo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.obj
-.PHONY : Proyecto_2/Nuevo.cpp.obj
+Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj
 
-Proyecto_2/Nuevo.i: Proyecto_2/Nuevo.cpp.i
-.PHONY : Proyecto_2/Nuevo.i
+Proyecto_2-_Ejercio_3,4,5/Nuevo.i: Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.i
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Nuevo.i
 
 # target to preprocess a source file
-Proyecto_2/Nuevo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.i
-.PHONY : Proyecto_2/Nuevo.cpp.i
+Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.i
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.i
 
-Proyecto_2/Nuevo.s: Proyecto_2/Nuevo.cpp.s
-.PHONY : Proyecto_2/Nuevo.s
+Proyecto_2-_Ejercio_3,4,5/Nuevo.s: Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.s
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Nuevo.s
 
 # target to generate assembly for a file
-Proyecto_2/Nuevo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.s
-.PHONY : Proyecto_2/Nuevo.cpp.s
+Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.s
+.PHONY : Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.s
 
-Proyecto_2/funciones.obj: Proyecto_2/funciones.cpp.obj
-.PHONY : Proyecto_2/funciones.obj
+Proyecto_2-_Ejercio_3,4,5/funciones.obj: Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj
+.PHONY : Proyecto_2-_Ejercio_3,4,5/funciones.obj
 
 # target to build an object file
-Proyecto_2/funciones.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.obj
-.PHONY : Proyecto_2/funciones.cpp.obj
+Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj
+.PHONY : Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj
 
-Proyecto_2/funciones.i: Proyecto_2/funciones.cpp.i
-.PHONY : Proyecto_2/funciones.i
+Proyecto_2-_Ejercio_3,4,5/funciones.i: Proyecto_2-_Ejercio_3,4,5/funciones.cpp.i
+.PHONY : Proyecto_2-_Ejercio_3,4,5/funciones.i
 
 # target to preprocess a source file
-Proyecto_2/funciones.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.i
-.PHONY : Proyecto_2/funciones.cpp.i
+Proyecto_2-_Ejercio_3,4,5/funciones.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.i
+.PHONY : Proyecto_2-_Ejercio_3,4,5/funciones.cpp.i
 
-Proyecto_2/funciones.s: Proyecto_2/funciones.cpp.s
-.PHONY : Proyecto_2/funciones.s
+Proyecto_2-_Ejercio_3,4,5/funciones.s: Proyecto_2-_Ejercio_3,4,5/funciones.cpp.s
+.PHONY : Proyecto_2-_Ejercio_3,4,5/funciones.s
 
 # target to generate assembly for a file
-Proyecto_2/funciones.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.s
-.PHONY : Proyecto_2/funciones.cpp.s
+Proyecto_2-_Ejercio_3,4,5/funciones.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.s
+.PHONY : Proyecto_2-_Ejercio_3,4,5/funciones.cpp.s
 
-Proyecto_2/main.obj: Proyecto_2/main.cpp.obj
-.PHONY : Proyecto_2/main.obj
+Proyecto_2-_Ejercio_3,4,5/main.obj: Proyecto_2-_Ejercio_3,4,5/main.cpp.obj
+.PHONY : Proyecto_2-_Ejercio_3,4,5/main.obj
 
 # target to build an object file
-Proyecto_2/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.obj
-.PHONY : Proyecto_2/main.cpp.obj
+Proyecto_2-_Ejercio_3,4,5/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.obj
+.PHONY : Proyecto_2-_Ejercio_3,4,5/main.cpp.obj
 
-Proyecto_2/main.i: Proyecto_2/main.cpp.i
-.PHONY : Proyecto_2/main.i
+Proyecto_2-_Ejercio_3,4,5/main.i: Proyecto_2-_Ejercio_3,4,5/main.cpp.i
+.PHONY : Proyecto_2-_Ejercio_3,4,5/main.i
 
 # target to preprocess a source file
-Proyecto_2/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.i
-.PHONY : Proyecto_2/main.cpp.i
+Proyecto_2-_Ejercio_3,4,5/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.i
+.PHONY : Proyecto_2-_Ejercio_3,4,5/main.cpp.i
 
-Proyecto_2/main.s: Proyecto_2/main.cpp.s
-.PHONY : Proyecto_2/main.s
+Proyecto_2-_Ejercio_3,4,5/main.s: Proyecto_2-_Ejercio_3,4,5/main.cpp.s
+.PHONY : Proyecto_2-_Ejercio_3,4,5/main.s
 
 # target to generate assembly for a file
-Proyecto_2/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.s
-.PHONY : Proyecto_2/main.cpp.s
+Proyecto_2-_Ejercio_3,4,5/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto2.dir\build.make CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.s
+.PHONY : Proyecto_2-_Ejercio_3,4,5/main.cpp.s
 
 # Help Target
 help:
@@ -330,30 +346,31 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Matematicas
 	@echo ... Nociones_clave
 	@echo ... Proyecto2
 	@echo ... fmt
-	@echo ... Proyecto_1/Estudiante.obj
-	@echo ... Proyecto_1/Estudiante.i
-	@echo ... Proyecto_1/Estudiante.s
-	@echo ... Proyecto_1/Persona.obj
-	@echo ... Proyecto_1/Persona.i
-	@echo ... Proyecto_1/Persona.s
-	@echo ... Proyecto_1/main2.obj
-	@echo ... Proyecto_1/main2.i
-	@echo ... Proyecto_1/main2.s
-	@echo ... Proyecto_2/Matematicas.obj
-	@echo ... Proyecto_2/Matematicas.i
-	@echo ... Proyecto_2/Matematicas.s
-	@echo ... Proyecto_2/Nuevo.obj
-	@echo ... Proyecto_2/Nuevo.i
-	@echo ... Proyecto_2/Nuevo.s
-	@echo ... Proyecto_2/funciones.obj
-	@echo ... Proyecto_2/funciones.i
-	@echo ... Proyecto_2/funciones.s
-	@echo ... Proyecto_2/main.obj
-	@echo ... Proyecto_2/main.i
-	@echo ... Proyecto_2/main.s
+	@echo ... Proyecto_1-Ejercio_1_y_2/Estudiante.obj
+	@echo ... Proyecto_1-Ejercio_1_y_2/Estudiante.i
+	@echo ... Proyecto_1-Ejercio_1_y_2/Estudiante.s
+	@echo ... Proyecto_1-Ejercio_1_y_2/Persona.obj
+	@echo ... Proyecto_1-Ejercio_1_y_2/Persona.i
+	@echo ... Proyecto_1-Ejercio_1_y_2/Persona.s
+	@echo ... Proyecto_1-Ejercio_1_y_2/main2.obj
+	@echo ... Proyecto_1-Ejercio_1_y_2/main2.i
+	@echo ... Proyecto_1-Ejercio_1_y_2/main2.s
+	@echo ... Proyecto_2-_Ejercio_3,4,5/Matematicas.obj
+	@echo ... Proyecto_2-_Ejercio_3,4,5/Matematicas.i
+	@echo ... Proyecto_2-_Ejercio_3,4,5/Matematicas.s
+	@echo ... Proyecto_2-_Ejercio_3,4,5/Nuevo.obj
+	@echo ... Proyecto_2-_Ejercio_3,4,5/Nuevo.i
+	@echo ... Proyecto_2-_Ejercio_3,4,5/Nuevo.s
+	@echo ... Proyecto_2-_Ejercio_3,4,5/funciones.obj
+	@echo ... Proyecto_2-_Ejercio_3,4,5/funciones.i
+	@echo ... Proyecto_2-_Ejercio_3,4,5/funciones.s
+	@echo ... Proyecto_2-_Ejercio_3,4,5/main.obj
+	@echo ... Proyecto_2-_Ejercio_3,4,5/main.i
+	@echo ... Proyecto_2-_Ejercio_3,4,5/main.s
 .PHONY : help
 
 

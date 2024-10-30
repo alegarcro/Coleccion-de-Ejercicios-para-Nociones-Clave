@@ -71,5 +71,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Nociones_clave.dir/DependInfo.cmake"
   "CMakeFiles/Proyecto2.dir/DependInfo.cmake"
+  "CMakeFiles/Matematicas.dir/DependInfo.cmake"
   "_deps/fmt-build/CMakeFiles/fmt.dir/DependInfo.cmake"
   )

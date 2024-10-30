@@ -68,60 +68,60 @@ include CMakeFiles/Nociones_clave.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Nociones_clave.dir/flags.make
 
-CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.obj: CMakeFiles/Nociones_clave.dir/flags.make
-CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 1/main2.cpp
-CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.obj: CMakeFiles/Nociones_clave.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.obj -MF CMakeFiles\Nociones_clave.dir\Proyecto_1\main2.cpp.obj.d -o CMakeFiles\Nociones_clave.dir\Proyecto_1\main2.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1\main2.cpp"
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.obj: CMakeFiles/Nociones_clave.dir/flags.make
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 1-Ejercio\ 1\ y\ 2/main2.cpp
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.obj: CMakeFiles/Nociones_clave.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.obj -MF CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\main2.cpp.obj.d -o CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\main2.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1-Ejercio 1 y 2\main2.cpp"
 
-CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1\main2.cpp" > CMakeFiles\Nociones_clave.dir\Proyecto_1\main2.cpp.i
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1-Ejercio 1 y 2\main2.cpp" > CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\main2.cpp.i
 
-CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1\main2.cpp" -o CMakeFiles\Nociones_clave.dir\Proyecto_1\main2.cpp.s
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1-Ejercio 1 y 2\main2.cpp" -o CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\main2.cpp.s
 
-CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.obj: CMakeFiles/Nociones_clave.dir/flags.make
-CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 1/Estudiante.cpp
-CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.obj: CMakeFiles/Nociones_clave.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.obj -MF CMakeFiles\Nociones_clave.dir\Proyecto_1\Estudiante.cpp.obj.d -o CMakeFiles\Nociones_clave.dir\Proyecto_1\Estudiante.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1\Estudiante.cpp"
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj: CMakeFiles/Nociones_clave.dir/flags.make
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 1-Ejercio\ 1\ y\ 2/Estudiante.cpp
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj: CMakeFiles/Nociones_clave.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj -MF CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\Estudiante.cpp.obj.d -o CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\Estudiante.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1-Ejercio 1 y 2\Estudiante.cpp"
 
-CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1\Estudiante.cpp" > CMakeFiles\Nociones_clave.dir\Proyecto_1\Estudiante.cpp.i
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1-Ejercio 1 y 2\Estudiante.cpp" > CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\Estudiante.cpp.i
 
-CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1\Estudiante.cpp" -o CMakeFiles\Nociones_clave.dir\Proyecto_1\Estudiante.cpp.s
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1-Ejercio 1 y 2\Estudiante.cpp" -o CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\Estudiante.cpp.s
 
-CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.obj: CMakeFiles/Nociones_clave.dir/flags.make
-CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 1/Persona.cpp
-CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.obj: CMakeFiles/Nociones_clave.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.obj -MF CMakeFiles\Nociones_clave.dir\Proyecto_1\Persona.cpp.obj.d -o CMakeFiles\Nociones_clave.dir\Proyecto_1\Persona.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1\Persona.cpp"
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj: CMakeFiles/Nociones_clave.dir/flags.make
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 1-Ejercio\ 1\ y\ 2/Persona.cpp
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj: CMakeFiles/Nociones_clave.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj -MF CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\Persona.cpp.obj.d -o CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\Persona.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1-Ejercio 1 y 2\Persona.cpp"
 
-CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1\Persona.cpp" > CMakeFiles\Nociones_clave.dir\Proyecto_1\Persona.cpp.i
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1-Ejercio 1 y 2\Persona.cpp" > CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\Persona.cpp.i
 
-CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1\Persona.cpp" -o CMakeFiles\Nociones_clave.dir\Proyecto_1\Persona.cpp.s
+CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 1-Ejercio 1 y 2\Persona.cpp" -o CMakeFiles\Nociones_clave.dir\Proyecto_1-Ejercio_1_y_2\Persona.cpp.s
 
 # Object files for target Nociones_clave
 Nociones_clave_OBJECTS = \
-"CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.obj" \
-"CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.obj" \
-"CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.obj"
+"CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.obj" \
+"CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj" \
+"CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj"
 
 # External object files for target Nociones_clave
 Nociones_clave_EXTERNAL_OBJECTS =
 
-Nociones_clave.exe: CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.obj
-Nociones_clave.exe: CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.obj
-Nociones_clave.exe: CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.obj
+Nociones_clave.exe: CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.obj
+Nociones_clave.exe: CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj
+Nociones_clave.exe: CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj
 Nociones_clave.exe: CMakeFiles/Nociones_clave.dir/build.make
 Nociones_clave.exe: CMakeFiles/Nociones_clave.dir/linkLibs.rsp
 Nociones_clave.exe: CMakeFiles/Nociones_clave.dir/objects1.rsp

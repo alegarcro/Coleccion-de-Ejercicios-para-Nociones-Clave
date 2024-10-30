@@ -30,10 +30,10 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(fmt)
 
 
-target_link_libraries(Nociones-clave2 PRIVATE fmt::fmt)
+target_link_libraries(Proyecto2 PRIVATE fmt::fmt)
 
 #Biblioteca estaticas y dinamicas
 add_library(Matematicas STATIC "Proyecto 2- Ejercio 3,4,5/Matematicas.cpp")
 
-target_link_libraries(Nociones-Clave 2 PRIVATE matematicas)
+target_link_libraries(Proyecto2 PRIVATE Matematicas)
 

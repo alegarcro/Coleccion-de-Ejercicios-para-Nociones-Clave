@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto 1/Estudiante.cpp" "CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.obj" "gcc" "CMakeFiles/Nociones_clave.dir/Proyecto_1/Estudiante.cpp.obj.d"
-  "C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto 1/Persona.cpp" "CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.obj" "gcc" "CMakeFiles/Nociones_clave.dir/Proyecto_1/Persona.cpp.obj.d"
-  "C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto 1/main2.cpp" "CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.obj" "gcc" "CMakeFiles/Nociones_clave.dir/Proyecto_1/main2.cpp.obj.d"
+  "C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto 1-Ejercio 1 y 2/Estudiante.cpp" "CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj" "gcc" "CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Estudiante.cpp.obj.d"
+  "C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto 1-Ejercio 1 y 2/Persona.cpp" "CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj" "gcc" "CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/Persona.cpp.obj.d"
+  "C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto 1-Ejercio 1 y 2/main2.cpp" "CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.obj" "gcc" "CMakeFiles/Nociones_clave.dir/Proyecto_1-Ejercio_1_y_2/main2.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

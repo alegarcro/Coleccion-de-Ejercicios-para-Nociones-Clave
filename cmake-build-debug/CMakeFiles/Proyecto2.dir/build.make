@@ -68,77 +68,83 @@ include CMakeFiles/Proyecto2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Proyecto2.dir/flags.make
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 2/main.cpp
-CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.obj -MF CMakeFiles\Proyecto2.dir\Proyecto_2\main.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Proyecto_2\main.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\main.cpp"
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.obj: CMakeFiles/Proyecto2.dir/includes_CXX.rsp
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 2-\ Ejercio\ 3,4,5/main.cpp
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.obj -MF CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\main.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\main.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\main.cpp"
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\main.cpp" > CMakeFiles\Proyecto2.dir\Proyecto_2\main.cpp.i
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\main.cpp" > CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\main.cpp.i
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\main.cpp" -o CMakeFiles\Proyecto2.dir\Proyecto_2\main.cpp.s
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\main.cpp" -o CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\main.cpp.s
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 2/Nuevo.cpp
-CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.obj -MF CMakeFiles\Proyecto2.dir\Proyecto_2\Nuevo.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Proyecto_2\Nuevo.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\Nuevo.cpp"
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj: CMakeFiles/Proyecto2.dir/includes_CXX.rsp
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 2-\ Ejercio\ 3,4,5/Nuevo.cpp
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj -MF CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\Nuevo.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\Nuevo.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\Nuevo.cpp"
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\Nuevo.cpp" > CMakeFiles\Proyecto2.dir\Proyecto_2\Nuevo.cpp.i
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\Nuevo.cpp" > CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\Nuevo.cpp.i
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\Nuevo.cpp" -o CMakeFiles\Proyecto2.dir\Proyecto_2\Nuevo.cpp.s
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\Nuevo.cpp" -o CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\Nuevo.cpp.s
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 2/funciones.cpp
-CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.obj -MF CMakeFiles\Proyecto2.dir\Proyecto_2\funciones.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Proyecto_2\funciones.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\funciones.cpp"
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj: CMakeFiles/Proyecto2.dir/includes_CXX.rsp
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 2-\ Ejercio\ 3,4,5/funciones.cpp
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj -MF CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\funciones.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\funciones.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\funciones.cpp"
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\funciones.cpp" > CMakeFiles\Proyecto2.dir\Proyecto_2\funciones.cpp.i
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\funciones.cpp" > CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\funciones.cpp.i
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\funciones.cpp" -o CMakeFiles\Proyecto2.dir\Proyecto_2\funciones.cpp.s
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\funciones.cpp" -o CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\funciones.cpp.s
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
-CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 2/Matematicas.cpp
-CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.obj -MF CMakeFiles\Proyecto2.dir\Proyecto_2\Matematicas.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Proyecto_2\Matematicas.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\Matematicas.cpp"
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj: CMakeFiles/Proyecto2.dir/flags.make
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj: CMakeFiles/Proyecto2.dir/includes_CXX.rsp
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj: C:/Users/Alex\ Garcia/Desktop/NOCIONES\ CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/Proyecto\ 2-\ Ejercio\ 3,4,5/Matematicas.cpp
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj: CMakeFiles/Proyecto2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj -MF CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\Matematicas.cpp.obj.d -o CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\Matematicas.cpp.obj -c "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\Matematicas.cpp"
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\Matematicas.cpp" > CMakeFiles\Proyecto2.dir\Proyecto_2\Matematicas.cpp.i
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\Matematicas.cpp" > CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\Matematicas.cpp.i
 
-CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2\Matematicas.cpp" -o CMakeFiles\Proyecto2.dir\Proyecto_2\Matematicas.cpp.s
+CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Alex Garcia\Desktop\NOCIONES CLAVE(2)\Coleccion-de-Ejercicios-para-Nociones-Clave\Proyecto 2- Ejercio 3,4,5\Matematicas.cpp" -o CMakeFiles\Proyecto2.dir\Proyecto_2-_Ejercio_3,4,5\Matematicas.cpp.s
 
 # Object files for target Proyecto2
 Proyecto2_OBJECTS = \
-"CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.obj" \
-"CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.obj" \
-"CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.obj" \
-"CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.obj"
+"CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.obj" \
+"CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj" \
+"CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj" \
+"CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj"
 
 # External object files for target Proyecto2
 Proyecto2_EXTERNAL_OBJECTS =
 
-Proyecto2.exe: CMakeFiles/Proyecto2.dir/Proyecto_2/main.cpp.obj
-Proyecto2.exe: CMakeFiles/Proyecto2.dir/Proyecto_2/Nuevo.cpp.obj
-Proyecto2.exe: CMakeFiles/Proyecto2.dir/Proyecto_2/funciones.cpp.obj
-Proyecto2.exe: CMakeFiles/Proyecto2.dir/Proyecto_2/Matematicas.cpp.obj
+Proyecto2.exe: CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/main.cpp.obj
+Proyecto2.exe: CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Nuevo.cpp.obj
+Proyecto2.exe: CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/funciones.cpp.obj
+Proyecto2.exe: CMakeFiles/Proyecto2.dir/Proyecto_2-_Ejercio_3,4,5/Matematicas.cpp.obj
 Proyecto2.exe: CMakeFiles/Proyecto2.dir/build.make
+Proyecto2.exe: _deps/fmt-build/libfmtd.a
+Proyecto2.exe: libMatematicas.a
 Proyecto2.exe: CMakeFiles/Proyecto2.dir/linkLibs.rsp
 Proyecto2.exe: CMakeFiles/Proyecto2.dir/objects1.rsp
 Proyecto2.exe: CMakeFiles/Proyecto2.dir/link.txt
