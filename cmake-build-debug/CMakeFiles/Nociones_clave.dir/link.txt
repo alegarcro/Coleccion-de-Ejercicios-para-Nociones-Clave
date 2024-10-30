@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\Nociones_clave.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\Nociones_clave.dir/objects.a @CMakeFiles\Nociones_clave.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Nociones_clave.dir/objects.a -Wl,--no-whole-archive -o Nociones_clave.exe -Wl,--out-implib,libNociones_clave.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Nociones_clave.dir\linkLibs.rsp

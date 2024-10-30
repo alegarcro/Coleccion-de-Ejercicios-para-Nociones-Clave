@@ -1,0 +1,3 @@
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate.dir
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/rebuild_cache.dir

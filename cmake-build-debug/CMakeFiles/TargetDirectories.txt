@@ -1,7 +1,7 @@
-C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/Nociones_clave.dir
-C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/Proyecto2.dir
-C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/_deps/fmt-build/CMakeFiles/fmt.dir
-C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/_deps/fmt-build/CMakeFiles/edit_cache.dir
-C:/Users/Alex Garcia/CLionProjects/untitled1/cmake-build-debug/_deps/fmt-build/CMakeFiles/rebuild_cache.dir
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/CMakeFiles/Nociones_clave.dir
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/CMakeFiles/Proyecto2.dir
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/_deps/fmt-build/CMakeFiles/fmt.dir
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/_deps/fmt-build/CMakeFiles/edit_cache.dir
+C:/Users/Alex Garcia/Desktop/NOCIONES CLAVE(2)/Coleccion-de-Ejercicios-para-Nociones-Clave/cmake-build-debug/_deps/fmt-build/CMakeFiles/rebuild_cache.dir
